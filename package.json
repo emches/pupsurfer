@@ -1,0 +1,32 @@
+{
+  "name": "pup_tinder",
+  "version": "0.2.0",
+  "description": "A sample Node.js app using Express 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node get_pups.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.151.0",
+    "express": "^4.13.3",
+    "npdynamodb": "^0.2.15",
+    "petfinder": "^0.1.1",
+    "us": "^2.0.0",
+    "zipcodes": "^5.1.0"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-sample"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Emily Chesler",
+  "contributors": [],
+  "license": "MIT"
+}
